@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+</head>
+<body>
+    <div class="row">
+        <a class="btn btn-primary" href="index.html">BT01: QUẢN LÝ TUYỂN SINH</a>
+        <a class="btn btn-primary" href="index2.html">BT02: TÍNH TIỀN ĐIỆN</a>
+    </div>
+    <hr/>
+
+    <div class="container">
+        <div class="col-6">
+            <h2>BT01: QUẢN LÝ TUYỂN SINH</h2>
+            <form>
+                <div class="form-group">
+                    <label for="inputDiemChuan">Điểm Chuẩn Hội Đồng</label>
+                    <input type="text" class="form-control" id="inputDiemChuan">
+                </div>
+                <div class="form-group">
+                    <label for="inputDiem1">Điểm Môn Số 1</label>
+                    <input type="text" class="form-control" id="inputDiem1">
+                </div>
+                <div class="form-group">
+                    <label for="inputDiem2">Điểm Môn Số 2</label>
+                    <input type="text" class="form-control" id="inputDiem2">
+                </div>
+                <div class="form-group">
+                    <label for="inputDiem3">Điểm Môn Số 3</label>
+                    <input type="text" class="form-control" id="inputDiem3">
+                </div>
+                <div class="form-group">
+                    <label for="selectDiemKhuVuc">Lựa Chọn Khu Vực</label>
+                    <select class="custom-select" id="selectDiemKhuVuc">
+                        <option value="0">Không Thuộc Khu Vực Nào</option>
+                        <option value="2">Khu Vực A</option>
+                        <option value="1">Khu Vực B</option>
+                        <option value="0.5">Khu Vực C</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="selectDoiTuong">Lựa Chọn Đối Tượng</label>
+                    <select class="custom-select" id="selectDoiTuong">
+                        <option value="0">Không Thuộc Đối Tượng Nào</option>
+                        <option value="2.5">Đối Tượng 1</option>
+                        <option value="1.5">Đối Tượng 2</option>
+                        <option value="3">Đối Tượng 3</option>
+                    </select>
+                </div>
+                <button id="btnKiemTra" type="submit" class="btn btn-primary">Kiểm Tra</button>
+                <p id="txtKiemTra"></p>
+            </form>        
+        </div>
+
+        <hr/>
+        
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>
